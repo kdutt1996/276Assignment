@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <scale
+        android:duration = "1000"
+        android:pivotX = "50%p"
+        android:pivotY = "50%p"
+        android:fromXScale = "0.3"
+        android:fromYScale = "0.3"
+        android:toXScale = "1.0"
+        android:toYScale = "1.0"
+        android:repeatMode = "reverse"
+        android:repeatCount = "6">
+
+    </scale>
+
+    <rotate
+        android:duration = "6000"
+        android:pivotX = "50%p"
+        android:pivotY = "50%p"
+        android:fromDegrees="0"
+        android:toDegrees="1080">
+
+    </rotate>
+
+</set>
+
